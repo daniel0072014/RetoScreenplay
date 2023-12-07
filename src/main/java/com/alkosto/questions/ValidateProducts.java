@@ -15,7 +15,6 @@ public class ValidateProducts implements Question<Boolean>{
         String product21 = actor.recall("product2");
         return product10.equals(product11) && product20.equals(product21);
     }
-
     public static Question <Boolean> validate(){
         return new ValidateProducts();
     }
